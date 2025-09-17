@@ -18,4 +18,4 @@ function Application() {
   );
 }
 
-createRoot(document.getElementById("app")).render(<Application />);
+createRoot(document.getElementById("app")!).render(<Application />);
