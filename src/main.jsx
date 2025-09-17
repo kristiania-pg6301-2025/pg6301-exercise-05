@@ -7,11 +7,14 @@ function Application() {
     { description: "Something else" },
   ]);
   return (
-    <ul>
-      {tasks.map((t) => (
-        <li>{t.description}</li>
-      ))}
-    </ul>
+    <>
+      <h1>My Tasks</h1>
+      <ul>
+        {tasks.map((t) => (
+          <li>{t.description}</li>
+        ))}
+      </ul>
+    </>
   );
 }
 
